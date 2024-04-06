@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Mahsulot 1",
+        "img": "https://example.com/image1.jpg",
+        "price": 10,
+        "info": "Mahsulot 1 haqida ma'lumot",
+        "type": "turi1"
+    },
+    {
+        "title": "Mahsulot 2",
+        "img": "https://example.com/image2.jpg",
+        "price": 20,
+        "info": "Mahsulot 2 haqida ma'lumot",
+        "type": "turi2"
+    },
+    {
+        "title": "Mahsulot 3",
+        "img": "https://example.com/image3.jpg",
+        "price": 15,
+        "info": "Mahsulot 3 haqida ma'lumot",
+        "type": "turi1"
+    },
+    {
+        "title": "Mahsulot 4",
+        "img": "https://example.com/image4.jpg",
+        "price": 25,
+        "info": "Mahsulot 4 haqida ma'lumot",
+        "type": "turi3"
+    },
+    {
+        "title": "Mahsulot 5",
+        "img": "https://example.com/image5.jpg",
+        "price": 30,
+        "info": "Mahsulot 5 haqida ma'lumot",
+        "type": "turi2"
+    }
+]
