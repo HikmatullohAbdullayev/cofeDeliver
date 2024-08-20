@@ -1,9 +1,9 @@
-import React from 'react';
+import HeroSection from '../../components/HeroSection';
 
-function Home(props) {
+function Home() {
     return (
-        <div>
-            Home
+        <div className=''>
+            <HeroSection/>
         </div>
     );
 }

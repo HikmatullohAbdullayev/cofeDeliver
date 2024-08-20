@@ -1,25 +1,66 @@
-html{
+html {
     box-sizing: border-box;
     scroll-behavior: smooth;
-}
-*,
-*::before,
-*::after{
+  }
+  *,
+  *::before,
+  *::after {
     box-sizing: inherit;
-}
-
-h1,h2,h3,h4,h5,h6,p{
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
     margin: 0;
-}
-ul,ol{
+  }
+  ul,
+  ol {
     margin: 0;
     padding: 0;
     list-style: none;
-}
-a{
+  }
+  a {
     text-decoration: none;
-}
-body{
+  }
+  body {
+    font-family: Inter;
     margin: 0;
     padding: 0;
-}
+  }
+  img {
+    object-fit: cover;
+  }
+  button {
+    background-color: transparent;
+    cursor: pointer;
+    border: transparent;
+    outline: transparent;
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100vh;
+  }
+  .container {
+    max-width: 1440px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .bgImg {
+     
+      background-image: url('./assets/img/bgImg1.png'), url('./assets/img/bgImg2.png'), url('./assets/img/bgImg3.png');
+      background-position: top left, bottom left,  bottom right; /* Har bir rasmning joylashuvi */
+      background-size: 25%, 60%, 50%; /* Har bir rasmning o'lchami (prosentda) */
+      background-repeat: no-repeat;
+  
+  }
+  

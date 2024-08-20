@@ -4,12 +4,10 @@ const todoSlice =  createSlice({
     initialState:{
         list: []
     },
-    name: "todo",
+    name: "filter",
     reducers:{
-        addTodo: () => {},
-        deleteTodo: ( ) => { },
-        editTodo: ( ) => {},
-        chekTodo: ( ) => {},
+        filter: () => {},
+        
 
     }
 })

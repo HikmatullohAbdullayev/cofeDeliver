@@ -1,37 +1,114 @@
 [
     {
-        "title": "Mahsulot 1",
-        "img": "https://example.com/image1.jpg",
-        "price": 10,
-        "info": "Mahsulot 1 haqida ma'lumot",
-        "type": "turi1"
+        "id": 1,
+        "title": "An'anaviy Qahva",
+        "info": "Issiq suv va maydalanib qaynatilgan donlardan tayyorlangan an'anaviy qahva",
+        "price": "9,90 so'm",
+        "type": "An'anaviy",
+        "img": "https://euphonious-raindrop-b474e8.netlify.app/img/cofeDeliver/codeDeliver1.png"
     },
     {
-        "title": "Mahsulot 2",
-        "img": "https://example.com/image2.jpg",
-        "price": 20,
-        "info": "Mahsulot 2 haqida ma'lumot",
-        "type": "turi2"
+        "id": 2,
+        "title": "Amerikacha Qahva",
+        "info": "An'anaviy qahvadan ko'ra yumshoqroq, suyultirilgan qahva",
+        "price": "9,30 so'm",
+        "type": "An'anaviy",
+        "img": "https://euphonious-raindrop-b474e8.netlify.app/img/cofeDeliver/codeDeliver2.png"
     },
     {
-        "title": "Mahsulot 3",
-        "img": "https://example.com/image3.jpg",
-        "price": 15,
-        "info": "Mahsulot 3 haqida ma'lumot",
-        "type": "turi1"
+        "id": 3,
+        "title": "Kremli Qahva",
+        "info": "Kremli ko'pik bilan an'anaviy tayyorlangan qahva",
+        "price": "6,20 so'm",
+        "type": "An'anaviy",
+        "img": "https://euphonious-raindrop-b474e8.netlify.app/img/cofeDeliver/codeDeliver3.png"
     },
     {
-        "title": "Mahsulot 4",
-        "img": "https://example.com/image4.jpg",
-        "price": 25,
-        "info": "Mahsulot 4 haqida ma'lumot",
-        "type": "turi3"
+        "id": 4,
+        "title": "Muzli Qahva",
+        "info": "Muz bo'laklari bilan qahva",
+        "price": "9,90 so'm",
+        "type": "An'anaviy, Muzli",
+        "img": "https://euphonious-raindrop-b474e8.netlify.app/img/cofeDeliver/codeDeliver4.png"
     },
     {
-        "title": "Mahsulot 5",
-        "img": "https://example.com/image5.jpg",
-        "price": 30,
-        "info": "Mahsulot 5 haqida ma'lumot",
-        "type": "turi2"
+        "id": 5,
+        "title": "Sutli Qahva",
+        "info": "An'anaviy qahva va bug'latilgan sutning aralashmasi",
+        "price": "5,20 so'm",
+        "type": "An'anaviy, Sutli",
+        "img": "https://euphonious-raindrop-b474e8.netlify.app/img/cofeDeliver/codeDeliver5.png"
+    },
+    {
+        "id": 6,
+        "title": "Latte",
+        "info": "Bitta qahva dozasiga ikki barobar sut va kremli ko'pik bilan tayyorlangan qahva",
+        "price": "9,90 so'm",
+        "type": "An'anaviy, Sutli",
+        "img": "https://euphonious-raindrop-b474e8.netlify.app/img/cofeDeliver/codeDeliver6.png"
+    },
+    {
+        "id": 7,
+        "title": "Kapuchino",
+        "info": "Dolchin qo'shilgan qahva, sut va ko'pikning teng aralashmasi",
+        "price": "7,50 so'm",
+        "type": "An'anaviy, Sutli",
+        "img": "https://euphonious-raindrop-b474e8.netlify.app/img/cofeDeliver/codeDeliver7.png"
+    },
+    {
+        "id": 8,
+        "title": "Makchiato",
+        "info": "Issiq sut va ko'pik bilan aralashtirilgan qahva",
+        "price": "12,90 so'm",
+        "type": "An'anaviy, Sutli",
+        "img": "https://euphonious-raindrop-b474e8.netlify.app/img/cofeDeliver/codeDeliver8.png"
+    },
+    {
+        "id": 9,
+        "title": "Mokachino",
+        "info": "Shokoladli qahva, ozgina sut va ko'pik",
+        "price": "10,90 so'm",
+        "type": "An'anaviy, Sutli",
+        "img": "https://euphonious-raindrop-b474e8.netlify.app/img/cofeDeliver/codeDeliver9.png"
+    },
+    {
+        "id": 10,
+        "title": "Issiq Shokolad",
+        "info": "Qaynoq sut va shokolad bilan tayyorlangan qahva",
+        "price": "9,90 so'm",
+        "type": "Maxsus, Sutli",
+        "img": "https://euphonious-raindrop-b474e8.netlify.app/img/cofeDeliver/codeDeliver10.png"
+    },
+    {
+        "id": 11,
+        "title": "Kubalik",
+        "info": "Rum, qaymoq va yalpiz bilan tayyorlangan muzli qahva",
+        "price": "7,40 so'm",
+        "type": "Maxsus, Spirtli, Muzli",
+        "img": "https://euphonious-raindrop-b474e8.netlify.app/img/cofeDeliver/codeDeliver11.png"
+    },
+    {
+        "id": 12,
+        "title": "Gavaycha",
+        "info": "Kokos suti bilan tayyorlangan shirin qahva",
+        "price": "6,90 so'm",
+        "type": "Maxsus",
+        "img": "https://euphonious-raindrop-b474e8.netlify.app/img/cofeDeliver/codeDeliver12.png"
+    },
+    {
+        "id": 13,
+        "title": "Arabcha",
+        "info": "Arab qahva donlari va ziravorlar bilan tayyorlangan qahva",
+        "price": "9,40 so'm",
+        "type": "Maxsus",
+        "img": "https://euphonious-raindrop-b474e8.netlify.app/img/cofeDeliver/codeDeliver13.png"
+    },
+    {
+        "id": 14,
+        "title": "Irlandcha",
+        "info": "Irland viskisi, shakar va qaymoq bilan tayyorlangan qahva",
+        "price": "9,90 so'm",
+        "type": "Maxsus, Spirtli",
+        "img": "https://euphonious-raindrop-b474e8.netlify.app/img/cofeDeliver/codeDeliver14.png"
     }
 ]
