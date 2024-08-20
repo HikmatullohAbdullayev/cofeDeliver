@@ -8,12 +8,12 @@ const heroData =[
     {
         id:1,
         text:"Oson va xavfsiz xarid",
-        img: "img1"
+        img: img1
     },
     {
-        id:1,
+        id:2,
         text:"Qadoqlash qahvani buzilmagan holda saqlaydi",
-        img: "img2"
+        img: img2
     },
     {
         id:3,

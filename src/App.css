@@ -58,8 +58,8 @@ html {
   .bgImg {
      
       background-image: url('./assets/img/bgImg1.png'), url('./assets/img/bgImg2.png'), url('./assets/img/bgImg3.png');
-      background-position: top left, bottom left,  bottom right; /* Har bir rasmning joylashuvi */
-      background-size: 25%, 60%, 50%; /* Har bir rasmning o'lchami (prosentda) */
+      background-position: top left, bottom left,  bottom right; 
+      background-size: 25%, 60%, 50%; 
       background-repeat: no-repeat;
   
   }
