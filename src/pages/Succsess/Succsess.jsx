@@ -1,11 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 function Succsess(props) {
-    return (
-        <div>
-            Succsess
-        </div>
-    );
+  return <div>Succsess</div>
 }
 
-export default Succsess;
+export default Succsess

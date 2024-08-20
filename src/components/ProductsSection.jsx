@@ -1,10 +1,5 @@
-
 function ProductsSection() {
-    return (
-        <div>
-            ProductsSection
-        </div>
-    );
+  return <div>ProductsSection</div>
 }
 
-export default ProductsSection;
+export default ProductsSection

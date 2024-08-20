@@ -1,9 +1,9 @@
-import './App.css';
-import { Route, Routes } from 'react-router-dom';
-import MainLayout from './Layout/MainLayout/MainLayout';
-import Home from './pages/Home/Home';
-import Succsess from './pages/Succsess/Succsess';
-import Checkout from './pages/Checkout/Checkout';
+import './App.css'
+import { Route, Routes } from 'react-router-dom'
+import MainLayout from './Layout/MainLayout/MainLayout'
+import Home from './pages/Home/Home'
+import Succsess from './pages/Succsess/Succsess'
+import Checkout from './pages/Checkout/Checkout'
 // import ProductDetail from './Pages/ProductDetail';
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
         </Route>
       </Routes>
     </>
-  );
+  )
 }
 
-export default App;
+export default App
