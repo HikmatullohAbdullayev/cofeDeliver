@@ -5,7 +5,7 @@ function Home() {
   return (
     <div className="">
       <HeroSection />
-      <ProductsSection/>
+      <ProductsSection />
     </div>
   )
 }

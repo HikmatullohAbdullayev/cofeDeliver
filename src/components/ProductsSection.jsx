@@ -1,15 +1,15 @@
-import { useQuery } from "@tanstack/react-query";
-import axiosData from '../axios';
-import ProductCards from "./ProductCards";
+import { useQuery } from '@tanstack/react-query'
+import axiosData from '../axios'
+import ProductCards from './ProductCards'
 
 function ProductsSection() {
   const { isLoading, isError, data } = useQuery({
-    queryKey: ["data"],
+    queryKey: ['data'],
     queryFn: async () => {
-      const response = await axiosData.get('');
-      return response.data;
+      const response = await axiosData.get('')
+      return response.data
     },
-  });
+  })
 
   if (isLoading) {
     return (
@@ -18,25 +18,22 @@ function ProductsSection() {
           <div className="absolute inset-0 border-4 border-t-4 border-gray-300 border-t-blue-500 rounded-full animate-spin"></div>
         </div>
       </div>
-    );
+    )
   }
   if (isError) {
-    return <div className="text-red-500">Xatolik yuz berdi!</div>;
+    return <div className="text-red-500">Xatolik yuz berdi!</div>
   }
 
   return (
-    <div>
-      <h3>Bizning qahvalarimiz</h3>
-      <div className="grid  grid-cols-[repeat(auto-fill,minmax(270px,1fr))] gap-[20px] ">
-
-      {
-        data.map((item) =>(
-          <ProductCards key={item.id} item={item}  />
-        ))
-      }
+    <div className='my-[50px]'>
+      <h3 className='text-[30px] font-extrabold text-[#403937]'>Bizning qahvalarimiz</h3>
+      <div className="grid  grid-cols-[repeat(auto-fill,minmax(270px,1fr))] gap-[20px] py-[40px]">
+        {data.map((item) => (
+          <ProductCards key={item.id} item={item} />
+        ))}
       </div>
     </div>
-  );
+  )
 }
 
-export default ProductsSection;
+export default ProductsSection

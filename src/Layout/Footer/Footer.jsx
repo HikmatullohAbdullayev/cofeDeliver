@@ -1,7 +1,9 @@
-import React from 'react'
 
-function Footer(props) {
-  return <div>Footer</div>
+function Footer() {
+  return (
+    <footer className="w-full bg-gray-800 text-white py-4">
+    </footer>
+  );
 }
 
-export default Footer
+export default Footer;

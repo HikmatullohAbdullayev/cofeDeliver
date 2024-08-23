@@ -6,7 +6,7 @@ function HeroSection() {
     <div className=" flex justify-between items-center gap-[20px] mt-[94px] ">
       <div className="bgImg   max-w-[588px]  table845:w-full table845:mx-auto">
         <div className=" ">
-          <h2 className="text-[48px] font-extrabold text-[#272221]         table:text-[36px]">
+          <h2 className="text-[48px] font-extrabold text-[#272221] table:text-[36px]">
             Har lahza uchun ideal kofeni toping.
           </h2>
           <p className="text-[20px] font-normal text-[#403937] table:text-[18px ]">
